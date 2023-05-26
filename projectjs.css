@@ -1,0 +1,40 @@
+#body{
+	background-color:skyblue;
+}
+#outerdiv{
+	width: 500px;
+	height: 400px;
+	background-color:dodgerblue;
+	margin-left:400px;
+	margin-top:50px;
+	padding-top:100px;
+	text-align:center;
+}
+#h1{
+	text-align:center;
+	font-style: bold;
+	font-family:arial;
+	color:white;
+}
+#sdiv{
+	width:200px;
+	height:80px;
+	margin-top:30px;
+	margin-left:150px; 
+	border: 1px solid white;
+}
+#btn{
+	background-color:red;
+	border: 1px solid red;
+	color:white;
+	margin-top:25px;
+}
+#answer{
+	margin-top:40px;
+	margin-left:160px;
+	width:200px;
+	height: 50px;
+	border:2px solid black;
+	color:white;
+	font-size:30px;
+}

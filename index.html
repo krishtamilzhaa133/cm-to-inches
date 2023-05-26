@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>cm to inches</title>
+	<link rel="stylesheet" type="text/css" href="projectjs.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body id="body">
+	<div id="outerdiv">
+	<div id="fdiv">
+	    <h2 id="h1">CM TO INCHES</h2>
+	    <input id="input" type="text" name="centemeter" placeholder="Enter your centemeter">
+    </div>
+    <div id="sdiv">
+    	<button id="btn" type="submit" onclick="convert()">CLICK TO CONVERT</button>
+    </div>
+    <div id="answer"></div>
+    </div>
+    <script>
+
+    	function convert()
+    	{
+    		const user_input=Number(document.getElementById("input").value);
+    		const processin=user_input/2.54
+    		const result=document.getElementById("answer") 
+    		answer.innerHTML=processin.toFixed(3)+" "+"inches"
+    	}
+    	
+    </script>
+</body>
+</html>
